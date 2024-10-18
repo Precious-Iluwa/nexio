@@ -1,0 +1,182 @@
+:root{
+    --wh: #fff;
+    --bk: #121212;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bricolage Grotesque", sans-serif;    
+    color: white;
+}
+
+body{
+    background-color: var(--bk);
+}
+
+.form-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.left-container{
+    width: 50%;
+    height: 100dvh;
+    background-image: linear-gradient(45deg, rgb(255, 68, 0), rgb(0, 166, 255));
+}
+
+.left-container .intro-txt{
+    position: relative;
+}
+
+.content-container{
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+
+.intro-txt h3{
+    color: var(--wh);
+    font-size: 1rem;
+}
+
+.sub-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.intro-txt p{
+    font-size: .8rem;
+}
+
+.intro-options{
+    position: relative;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.intro-options a{
+    color: var(--bk);
+    text-decoration: none;
+    padding: 1rem;
+    width: 350px;
+    background-color: var(--wh);
+    border-radius: 10px;
+    font-weight: 600;
+    /* float: left; */
+}
+
+.intro-options a:hover{
+    background-color: var(--bk);
+    color: var(--wh);
+}
+
+.intro-options a span{
+    color: var(--wh);
+    background-color: var(--bk);
+    padding: .4rem .7rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    font-size: .7rem;
+}
+
+#special{
+    padding: .4rem .8rem;
+}
+
+/* Right container edit starts here */
+.right-container{
+    padding: 4rem 9rem 0 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40%;
+}
+
+.signin-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: .6rem;
+}
+
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.btns img{
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.btns a{
+    padding: .7rem 3rem;
+    border: 1px solid rgba(248, 248, 255, 0.421);
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    margin-top: .5rem;
+    justify-content: center;
+}
+
+.special-agn{
+    margin-right: 1.4rem;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+label{
+    font-size: .9rem;
+}
+
+input{
+    padding: .9rem;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #4f4f4f3f;
+}
+
+input[type="submit"]{
+    color: var(--bk);
+    background-color: var(--wh);
+    font-weight: 700;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    color: var(--wh);
+    background: linear-gradient(45deg, rgb(255, 68, 0), rgb(0, 166, 255));
+}
+
+.extra{
+    font-size: .8rem;
+    margin-bottom: 1.5rem;
+}
+
+.btm-content p{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    font-size: .9rem;
+}

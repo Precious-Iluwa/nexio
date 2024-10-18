@@ -1,0 +1,113 @@
+@media screen and (max-width: 475px) {
+    .left-container{
+        /* visibility: hidden; */
+        display: none;
+    }
+
+    .form-container{
+        display: block;
+        overflow: hidden;
+        margin-left: .5rem;
+    }
+
+    .special-agn{
+        margin-left: .3rem;
+    }
+
+    .right-container{
+        padding: 3rem .5rem 3rem 1rem;
+        width: 85%;
+        margin-left: .5rem;
+        overflow: hidden;
+    }
+
+    .signin-intro h2{
+        font-size: 1.5rem;
+    }
+
+    .signin-intro p{
+        font-size: .7rem;
+    }
+
+    .btns a{
+        font-size: .8rem;
+        padding: .5rem 2rem;
+    }
+
+    .btns img{
+        width: 15px;
+        margin-right: .5rem;
+    }
+
+    .extra{
+        font-size: .7rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* @media screen and  (max-width: 800px) {
+    .content-container{
+        display: none;
+    }
+
+    .left-container{
+        width: 100%;
+        height: 200px;
+    }
+
+    .form-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-container{
+        padding: 2rem 3rem;
+        width: 85%;
+        margin-left: .5rem;
+        overflow: hidden;
+    }
+
+    .signin-intro h2{
+        font-size: 2rem;
+    }
+
+    .signin-intro p{
+        font-size: 1rem;
+    }
+
+    .btns a{
+        font-size: 1rem;
+        margin-top: 1rem;
+        padding: .5rem 2rem;
+    }
+
+    .btns img{
+        width: 15px;
+        margin-right: .5rem;
+    }
+
+    label{
+        font-size: 1.2rem;
+    }
+
+    ::placeholder{
+        font-size: 1.1rem;
+    }
+
+    .extra{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .btm-content p{
+        font-size: 1.1rem;
+    }
+
+    input[type="submit"]{
+        font-size: 1.1rem;
+    }
+
+    input{
+        margin-bottom: .5rem;
+    }
+} */
